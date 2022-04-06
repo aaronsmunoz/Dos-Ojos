@@ -1,0 +1,129 @@
+/* added some font */
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat&display=swap');
+
+
+/* these should be in order
+
+TO DO: These should be in order 
+I need to round the corners for front img*/
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(180deg,#ffffff, #dbe6ff);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    margin: 6px 6px 20px 6px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+}
+
+.leftside .rightside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.tiles {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    list-style: none;
+    padding: 16px;
+}
+
+img.list {
+    max-width: 300px;
+    height: 240px;
+    
+}
+
+p.list {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 3px 3px 3px;
+}
+/* This names or functions will be changed/moved */
+ul.headerlinks { 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    list-style: none;
+}
+
+a.style {
+text-decoration: none;
+color: black;
+}
+
+.frontimage {
+    max-width: 360px;
+    height: auto;
+    margin: 20px;
+    padding: 16px;
+}
+
+.button {
+    display: flex;
+    margin:4px 6px 4px 4px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:auto;
+}
+/* //Button for front page// Thanks to fdossena.com by Federico Dossena */
+
+a.button4 {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+a.button4:hover {
+    border-color: rgba(255,255,255,1);
+    }
+    @media all and (max-width:30em){
+    a.button4{
+    display:block;
+    margin:0.2em auto;
+    }
+}
